@@ -2,6 +2,10 @@
   background: #0c3f6c;
 }
 
-#footer{
+#footer {
   background: #0c3f6c;
+}
+
+.colorRed{
+  color: #a72627 !important
 }
