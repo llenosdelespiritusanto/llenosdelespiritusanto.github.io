@@ -41,8 +41,8 @@
                 <ul class="nav navbar-nav">
                     <li class="{% if page.title contains 'Inicio' %} active{% else %}"" {% endif %}"><a href="index.html">Inicio</a></li>
                     <li class="{% if page.title contains 'Nosotros'%} active{% else %}"" {% endif %}"><a href="nosotros.html">Nosotros</a></li>
-                    <li class="{% if page.title contains 'Predicaciones'%} active{% else %}"" {% endif %}" ><a href="Predicaciones.html">Predicaciones</a></li>
-                    <li class="{% if page.title contains 'Seminarios'%} active{% else %}"" {% endif %}"><a href="Seminarios.html">Seminarios</a></li>
+                    <li class="{% if page.title contains 'Predicaciones'%} active{% else %}"" {% endif %}" ><a href="predicaciones.html">Predicaciones</a></li>
+                    <li class="{% if page.title contains 'Seminarios'%} active{% else %}"" {% endif %}"><a href="seminarios.html">Seminarios</a></li>
                     <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -52,9 +52,9 @@
                             <li><a href="shortcodes.html">Shortcodes</a></li>
                         </ul>
                     </li>-->
-                    <li  class="{% if page.title contains 'Talleres'%} active{% else %}"" {% endif %}" ><a href="blog.html">Talleres</a></li>
+                    <li  class="{% if page.title contains 'Talleres'%} active{% else %}"" {% endif %}" ><a href="talleres.html">Talleres</a></li>
                     <li  class="{% if page.title contains 'Noticias'%} active{% else %}"" {% endif %}" ><a href="blog.html">Noticias</a></li>
-                    <li><a href="contact-us.html">Contácto</a></li>
+                    <li class="{% if page.title contains 'Contácto'%} active{% else %}"" {% endif %}"><a href="contact-us.html">Contácto</a></li>
                 </ul>
             </div>
         </div><!--/.container-->
